@@ -1,0 +1,77 @@
+.blog_new h1,
+h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.blog_new {
+    background-image: url(../img/section_background_pattern_odd.png);
+    /* height: 100vh; */
+}
+
+.hair_cut {
+    width: 950px;
+    height: 425px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.boy {
+    background-image: url(../img/Hiarcutfeature.jpg);
+    background-repeat: no-repeat;
+    width: 650px;
+    height: 700px;
+}
+
+.post ul li {
+    padding: 20px 0 0 0;
+    color: gray;
+    list-style: none;
+}
+
+.hair_cut_2 {
+    width: 600px;
+    /* height: 600px; */
+    margin: auto;
+    /* margin-top: 30px; */
+}
+
+.hair_cut_2 h1 {
+    text-align: left;
+}
+
+.btn {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.feature {
+    background-image: url(../img/Feature.jpg);
+    width: 600px;
+    height: 400px;
+}
+
+.monsoon {
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/monsoon-02.jpg);
+}
+
+.umbrella {
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/umbrella\ girl.jpg);
+}

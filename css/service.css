@@ -1,0 +1,55 @@
+.service_list {
+    background-image: url(../img/section_background_pattern_odd.png);
+    width: 100%;
+    height: 100vh;
+}
+
+.picture {
+    display: flex;
+    background-color: white;
+    width: 970px;
+    height: 500px;
+    margin: auto;
+}
+
+.bride {
+    background-image: url(../img/service-img3.jpg);
+    background-position: top center;
+    background-size: cover;
+    border: 4px solid gray;
+    width: 450px;
+}
+
+.package ul li {
+    padding: 20px 0 0 50px;
+    list-style: none;
+}
+
+.package h1 {
+    margin-left: 50px;
+}
+
+.package i {
+    margin-right: 10px;
+}
+
+.package ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.treatment ul {
+    display: flex;
+    list-style: none;
+    padding: 100px 0 0 25px;
+}
+
+.treatment ul li {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.treatment ul li a {
+    text-decoration: none;
+    color: black;
+}

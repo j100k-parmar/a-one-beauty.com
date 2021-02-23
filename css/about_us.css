@@ -1,0 +1,41 @@
+.bg_about {
+    width: 100%;
+    height: 80vh;
+    padding-top: 20px;
+    background-image: url(../img/Aone_centerbg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_about_new {
+    background-image: url(../img/section_background_pattern_odd.png);
+}
+
+.about_details {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: -210px;
+    background-color: white;
+    padding: 50px;
+}
+
+.about_details h3 {
+    color: gray;
+}
+
+.achievement {
+    display: flex;
+    margin-top: 30px;
+}
+
+.since {
+    width: 360px;
+    margin-left: 25px;
+}
+
+.since i {
+    font-size: 35px;
+    padding-right: 14px;
+    color: crimson;
+}
