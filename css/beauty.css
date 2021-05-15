@@ -1,220 +1,275 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav {
-        background-color: black;
-        width: 100%;
-        height: 110px;
-        /* position: fixed; */
-        /* overflow: hidden; */
-        /* color: white; */
-    }
-    
-    .nav img {
-        float: left;
-        margin-left: 320px;
-    }
-    
-    .menu ul {
-        display: flex;
-        list-style: none;
-        padding-left: 265px;
-    }
-    
-    .menu ul li {
-        margin-top: 45px;
-        margin-left: 36px;
-        font-family: Verdana, sans-serif;
-        font-size: 14px;
-        color: #ccc;
-    }
-    
-    .menu ul a {
-        text-decoration: none;
-        color: #ccc;
-    }
-    
-    .menu ul a li:hover {
-        color: red;
-    }
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+nav img {
+    margin-left: 20px;
+}
+
+.menu {
+    /* width: 400px; */
+    float: right;
+    margin: 30px 0 0 100px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.menu ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.bg {
+    background-image: url(../img/11-1.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg p {
+    width: 450px;
+    color: white;
+    font-size: 51px;
+    margin: auto;
+    margin-right: 80px;
+    padding-top: 200px;
+}
+
+.container {
+    width: 1050px;
+    margin: auto;
+    /* background-color: white; */
+}
+
+.p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 16px;
+    margin-left: 30px;
+    padding-top: 100px;
+    font-family: Verdana, sans-serif;
+    /* color: rgb(189, 180, 180); */
+}
+
+.bg-2 {
+    background-image: url(../img/section_background_pattern_odd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100vh; */
+    margin: auto;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+}
+
+.services img {
+    width: 210px;
+    margin: 45px 0 0 30px;
+    border-radius: 50%;
+    border: 8px solid gray;
+    /* transition: 2s; */
+}
+
+
+/* .service1 img:hover {
+    transform: translate(1.2);
+} */
+
+.service1 {
+    /* float: left; */
+    width: 252px;
+    text-align: center;
+    color: rgb(80, 76, 76);
+}
+
+.service1 h2 {
+    text-align: center;
+    padding-left: 33px;
+    padding-top: 18px;
+}
+
+.service1 p {
+    font-size: 15px;
+    margin-left: 30px;
+    padding-top: 50px;
+}
+
+.info {
+    background-image: url(../img/Aone_centerbg1.jpg);
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.interior {
+    width: 1037px;
+    height: 160px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    line-height: 1.8;
+    padding: 15px;
+    position: relative;
+    top: 145px;
+}
+
+.interior p {
+    color: white;
+    padding-top: 8px;
+}
+
+#blog {
+    background-image: url(../img/section_background_pattern_odd.png);
+    width: 100%;
+}
+
+#blog h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.treatment {
+    width: 950px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tips {
+    width: 270px;
+    margin-left: 30px;
+}
+
+.tips a {
+    text-decoration: none;
+}
+
+.tips h4,
+p {
+    color: rgb(65, 63, 63);
+    padding-top: 30px;
+}
+
+.tips p a {
+    color: red;
+}
+
+.tips img {
+    width: 270px;
+}
+
+.scheme {
+    background-image: url(../img/Packages_bg_001.jpg);
+    background-position: center;
+    color: white;
+}
+
+.scheme p {
+    width: 400px;
+    text-align: justify;
+    padding-top: 30px;
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    height: 60px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgb(58, 56, 56);
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:428px) {
     .bg {
-        background-image: url(../img/11-1.jpg);
-        margin: auto;
-        width: 100%;
-        height: 100vh;
+        background-position-x: -247px;
     }
-    
     .bg p {
-        width: 348px;
-        color: white;
-        font-size: 51px;
-        margin: auto;
-        margin-left: 800px;
-        padding-top: 400px;
+        font-size: 25px;
+        width: 226px;
+        margin-right: 2px;
+        padding-top: 10px;
     }
-    
     .container {
-        width: 1050px;
-        margin: auto;
-        /* background-color: white; */
+        width: 100%;
     }
-    
     .p {
-        text-align: center;
-        padding-top: 30px;
-        font-size: 16px;
-        margin-left: 30px;
-        padding-top: 100px;
-        font-family: Verdana, sans-serif;
-        /* color: rgb(189, 180, 180); */
-    }
-    
-    .bg-2 {
-        background-image: url(../img/section_background_pattern_odd.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100vh;
-        margin: auto;
-    }
-    
-    .services img {
-        width: 210px;
-        margin: 45px 0 0 30px;
-        border-radius: 50%;
-        border: 8px solid gray;
-        /* transition: 2s; */
-    }
-    /* .service1 img:hover {
-        transform: translate(1.2);
-    } */
-    
-    .service1 {
-        float: left;
-        width: 252px;
-        text-align: center;
-        color: rgb(80, 76, 76);
-    }
-    
-    .service1 h2 {
-        text-align: center;
-        padding-left: 33px;
-        padding-top: 18px;
-    }
-    
-    .service1 p {
         font-size: 15px;
-        margin-left: 30px;
+        margin-left: 0;
         padding-top: 50px;
     }
-    
-    .info {
-        background-image: url(../img/Aone_centerbg1.jpg);
-        height: 70vh;
-        background-repeat: no-repeat;
-        background-size: cover;
+    .services {
+        display: flex;
+        flex-direction: column;
     }
-    
+    .service1 {
+        margin: auto;
+    }
+    .service1 p {
+        padding-top: 5px;
+        margin-left: 0;
+    }
     .interior {
-        width: 1037px;
-        height: 160px;
-        margin: auto;
-        background: rgba(0, 0, 0, 0.7);
-        font-size: 22px;
-        line-height: 1.8;
-        padding: 20px;
-        position: relative;
-        top: 145px;
+        height: 178px;
+        width: 425px;
+        font-size: 12px;
     }
-    
-    .interior p {
-        color: white;
-        padding-top: 8px;
-    }
-    
-    #blog {
-        background-image: url(../img/section_background_pattern_odd.png);
-        width: 100%;
-        height: 70vh;
-    }
-    
-    #blog h1 {
-        text-align: center;
-        padding-top: 50px;
-    }
-    
     .treatment {
-        width: 950px;
-        margin: auto;
-        margin-top: 50px;
+        width: 425px;
+        flex-direction: column;
     }
-    
     .tips {
-        width: 270px;
-        float: left;
-        margin-left: 30px;
+        margin-left: 0;
+        margin: auto;
     }
-    
-    .tips a {
-        text-decoration: none;
-    }
-    
     .tips h4,
     p {
-        color: rgb(65, 63, 63);
-        padding-top: 30px;
+        padding: 10px 0 10px 0;
     }
-    
-    .tips p a {
-        color: red;
-    }
-    
-    .tips img {
-        width: 270px;
-    }
-    
-    .scheme {
-        background-image: url(../img/Packages_bg_001.jpg);
-        background-position: center;
-        color: white;
-    }
-    
     .scheme p {
-        width: 400px;
-        text-align: justify;
-        padding-top: 30px;
-        color: white;
+        width: 425px;
     }
-    
-    table,
-    th,
-    td {
-        border: 2px solid white;
-        border-collapse: collapse;
-        height: 60px;
-        /* width: 100px; */
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-    
-    table {
-        margin-top: 30px;
-    }
-    
-    footer {
-        background-color: rgb(58, 56, 56);
-    }
-    
     footer p {
-        color: white;
-        text-align: center;
-        line-height: 70px;
+        line-height: 25px;
+        font-size: 12px;
     }
-    
-    footer a {
-        color: red;
-        text-decoration: none;
-    }
+}
